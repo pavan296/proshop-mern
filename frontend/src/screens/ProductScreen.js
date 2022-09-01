@@ -13,6 +13,7 @@ import Rating from '../components/Rating';
 import products from '../products';
 
 const ProductScreen = ({ match }) => {
+  // eslint-disable-next-line
   const product = products.find((p) => p._id == match.params.id);
 
   return (
@@ -62,6 +63,7 @@ const ProductScreen = ({ match }) => {
                 <Button
                   className='btn-block'
                   type='button'
+                  // eslint-disable-next-line
                   disabled={product.countInStock == 0}
                 >
                   Add to Cart
