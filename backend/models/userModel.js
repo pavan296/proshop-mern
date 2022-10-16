@@ -10,12 +10,18 @@ const userSchema = mongoose.Schema({
     required: true,
     unique: true,
   },
-  name: {
+  password: {
     type: String,
     required: true,
   },
-  name: {
-    type: String,
+  isAdmin: {
+    type: Boolean,
     required: true,
+    default: false
   },
+},{
+  timeStamps: true
 });
+const User=mongoose.model('User',userSchema);
+
+export default User;

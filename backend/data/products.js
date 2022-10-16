@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: 1,
     name: 'Airpods Wireless Blueetooth Headphones',
     image: '/images/airpods.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: 2,
     name: 'iPhone 11 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: 3,
     name: 'Cannon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: 4,
     name: 'Sony playstation 4 pro white version',
     image: '/images/playstation.jpg',
     description:
@@ -65,7 +61,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: 6,
     name: 'Amazon Echo Dot 3rd Generation ',
     image: '/images/alexa.jpg',
     description: 'Meet Echo Dot-our most popular smart speaker',
